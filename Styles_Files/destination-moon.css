@@ -1,0 +1,114 @@
+body {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  font-family: "Barlow Condensed", sans-serif;
+  color: var(--white);
+}
+
+.destenation_title {
+  display: flex;
+  gap: 2.4rem;
+  font-size: 2.8rem;
+  letter-spacing: 0.4px;
+  margin-left: 7rem;
+}
+
+.destenation_number {
+  color: var(--accent);
+}
+
+.nav-step {
+  font-size: 1.3rem;
+}
+
+.hero-section {
+  height: 100%;
+  padding: 12.8rem 16.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-container {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.destenation_description {
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: red; */
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 53.9rem;
+  height: 73.4rem;
+  padding: 13.3rem 4.7rem;
+}
+
+.destenation_header {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.destenation_choice {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--white);
+  padding: 2rem;
+}
+
+.destenation_choice:nth-of-type(1) {
+  border-bottom: solid 2px rgba(255, 255, 255, 1);
+}
+
+.destenation_choice:not(:first-of-type):hover {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+.cur-destenation {
+  margin-top: 4rem;
+  font-size: 9.6rem;
+  font-family: "Bellefair", sans-serif;
+  margin-bottom: 1.6rem;
+}
+
+.destenation-text {
+  color: var(--accent);
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 4rem;
+}
+
+.destenation-line {
+  width: 100%;
+  border: solid 0.1rem var(--white);
+  margin-bottom: 4rem;
+  opacity: 0.25;
+}
+
+.destenation-number-info {
+  width: 100%;
+  display: flex;
+  gap: 8rem;
+}
+
+.distance-info,
+.duration-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.distance-text,
+.duration-text {
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+.distance-val,
+.duration-val {
+  font-size: 2.8rem;
+  font-family: "Bellefair", sans-serif;
+}
