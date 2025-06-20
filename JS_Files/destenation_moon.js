@@ -42,7 +42,8 @@ function handelDestenationChoice() {
   let choiceNum = 0;
   destenationChoices.forEach((choice) => {
     choice.addEventListener("click", () => {
-      if (choice.textContent === "Mars") choiceNum = 1;
+      if (choice.textContent === "Moon") choiceNum = 0;
+      else if (choice.textContent === "Mars") choiceNum = 1;
       else if (choice.textContent === "Europa") {
         choiceNum = 2;
       } else if (choice.textContent === "Titan") {
