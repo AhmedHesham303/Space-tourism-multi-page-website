@@ -63,7 +63,7 @@ body {
   border-bottom: solid 2px rgba(255, 255, 255, 1);
 }
 
-.destenation_choice:hover {
+.destenation_choice:not(.selected-inner-nav-link):hover {
   border-bottom: solid 2px rgba(255, 255, 255, 0.5);
 }
 
