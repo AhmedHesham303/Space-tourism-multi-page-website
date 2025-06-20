@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow&family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="icon"
@@ -10,14 +14,50 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="../Styles_Files/temp.css" />
     <link rel="stylesheet" href="../Styles_Files/index.css" />
+    <link rel="stylesheet" href="../Styles_Files/temp.css" />
+
     <title>Frontend Mentor | Space tourism website</title>
   </head>
-  <body>
-    <!-- 00 Home 01 Destination 02 Crew 03 Technology So, you want to travel to Space
-    Let’s face it; if you want to go to space, you might as well genuinely go to
-    outer space and not hover kind of on the edge of it. Well sit back, and
-    relax because we’ll give you a truly out of this world experience! Explore -->
+    <header class="main-header">
+      <div class="main-header-container">
+        <img
+          src="./assets/shared/logo.svg"
+          alt="website logo"
+          class="website-logo"
+        />
+        <nav class="header-nav">
+          <div class="nav-line"></div>
+          <a href="#" class="home-page-link nav-step selected-nav-link"
+            ><span>00</span><span>Home</span>
+          </a>
+          <a href="#" class="destination-page-link nav-step">
+            <span>01</span><span>Destination</span></a
+          >
+          <a href="#" class="crew-page-link nav-step"
+            ><span>02</span><span>Crew</span>
+          </a>
+          <a href="#" class="technology-page-link nav-step"
+            ><span>03</span><span>Technology</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="hero-section-container">
+        <div class="home-page-text">
+          <p class="first-text">So, you want to travel to</p>
+          <div class="main-word">SPACE</div>
+
+          <p class="remaining-text">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <button class="display-button">EXPLORE</button>
+      </div>
+    </section>
   </body>
 </html>
