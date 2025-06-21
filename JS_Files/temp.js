@@ -1,4 +1,4 @@
-function handelChangingPage() {
+function navigator() {
   navSteps.forEach((navStep) => {
     navStep.addEventListener("click", () => {
       if (navStep.textContent.includes("Home")) {
@@ -10,4 +10,4 @@ function handelChangingPage() {
     });
   });
 }
-handelChangingPage();
+navigator();
