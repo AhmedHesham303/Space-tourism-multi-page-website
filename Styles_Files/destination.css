@@ -4,18 +4,6 @@ body {
   color: var(--white);
 }
 
-.destenation_title {
-  display: flex;
-  gap: 2.4rem;
-  font-size: 2.8rem;
-  letter-spacing: 0.4px;
-  margin-left: 16.5rem;
-}
-
-.destenation_number {
-  color: var(--accent);
-}
-
 .nav-step {
   font-size: 1.3rem;
 }

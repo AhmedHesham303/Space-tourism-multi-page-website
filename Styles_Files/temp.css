@@ -91,3 +91,15 @@ body {
   color: var(--white);
   border-bottom: solid var(--white) 2px;
 }
+
+.page-title {
+  display: flex;
+  gap: 2.4rem;
+  font-size: 2.8rem;
+  letter-spacing: 0.4px;
+  margin-left: 16.5rem;
+}
+
+.page-title-number {
+  color: var(--accent);
+}
