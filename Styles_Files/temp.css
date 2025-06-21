@@ -83,6 +83,10 @@ body {
   margin-left: 6.4rem;
 }
 
+.website-logo:hover {
+  cursor: pointer;
+}
+
 .header-nav a:not(.selected-nav-link):hover {
   border-bottom: solid 2px rgba(255, 255, 255, 0.5);
 }

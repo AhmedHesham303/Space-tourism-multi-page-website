@@ -13,19 +13,19 @@ async function loadData(crewMemberNum) {
   try {
     const response = await fetch("./data.json");
     const data = await response.json();
-    displayDestination(data.crew[crewMemberNum]);
+    displayCrewMemberInfo(data.crew[crewMemberNum]);
   } catch (error) {
     console.error("Error:", error);
   }
 }
 
-function displayDestination(crewMember) {
+function displayCrewMemberInfo(crewMember) {
   document.querySelector(".crew-member-name").textContent = crewMember.name;
   document.querySelector(".crew-member-title").textContent = crewMember.role;
 
   document.querySelector(".crew-member-img").src = crewMember.images.png;
 
-  document.querySelector(".rew-member-description").textContent =
+  document.querySelector(".crew-member-description").textContent =
     crewMember.description;
 }
 
