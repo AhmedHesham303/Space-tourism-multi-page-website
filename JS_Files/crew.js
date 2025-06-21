@@ -1,14 +1,35 @@
 const navSteps = document.querySelectorAll(".nav-step");
 const navCrew = document.querySelector(".crew-page-link");
+const navMembers = document.querySelectorAll(".nav-member");
+
+function changeSelectedNavPoints() {
+  navMembers.forEach((navMember) => {
+    navMember.addEventListener("click", () => {
+      navMembers.forEach((navMember) => {
+        navMember.classList.remove("selected-member");
+      });
+      navMember.classList.add("selected-member");
+    });
+  });
+}
+
+function handelCrewChoice() {
+  navMembers.forEach((choice, index) => {
+    choice.addEventListener("click", () => {
+      loadData(index);
+    });
+  });
+}
+
 function changeSelectedLinkState() {
   navSteps.forEach((navStep) => {
     navStep.classList.remove("selected-nav-link");
   });
   navCrew.classList.add("selected-nav-link");
 }
-
+handelCrewChoice();
 changeSelectedLinkState();
-
+changeSelectedNavPoints();
 async function loadData(crewMemberNum) {
   try {
     const response = await fetch("./data.json");
@@ -28,25 +49,5 @@ function displayCrewMemberInfo(crewMember) {
   document.querySelector(".crew-member-description").textContent =
     crewMember.bio;
 }
-
-// function handelCrewMemberChoice() {
-//   let choiceNum = 0;
-//   destenationChoices.forEach((choice) => {
-//     choice.addEventListener("click", () => {
-//       if (choice.textContent === "Moon") choiceNum = 0;
-//       else if (choice.textContent === "Mars") choiceNum = 1;
-//       else if (choice.textContent === "Europa") {
-//         choiceNum = 2;
-//       } else if (choice.textContent === "Titan") {
-//         choiceNum = 3;
-//       }
-//       loadData(choiceNum);
-//     });
-//   });
-// }
-
-// handelDestenationChoice();
-
-loadData(0);
 
 changeSelectedLinkState();

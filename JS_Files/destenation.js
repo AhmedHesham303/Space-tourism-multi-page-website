@@ -8,7 +8,7 @@ function changeSelectedLinkState() {
   navDestenation.classList.add("selected-nav-link");
 }
 
-function changeSelectedIInnerLinkState() {
+function changeSelectedInnerLinkState() {
   destenationChoices.forEach((destenation) => {
     destenation.addEventListener("click", () => {
       destenationChoices.forEach((navStep) => {
@@ -54,7 +54,7 @@ function handelDestenationChoice() {
   });
 }
 
-changeSelectedIInnerLinkState();
+changeSelectedInnerLinkState();
 handelDestenationChoice();
 
 loadData(0);
