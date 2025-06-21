@@ -7,3 +7,36 @@ body {
 .nav-step {
   font-size: 1.3rem;
 }
+
+.page-title {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+.hero-section {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding: 0 16.5rem;
+  justify-content: center;
+}
+
+.crew-member-info {
+  width: 60rem;
+}
+
+.crew-member-title {
+  font-size: 3.2rem;
+  opacity: 0.5;
+}
+
+.crew-member-name {
+  font-size: 5.6rem;
+  margin-bottom: 2rem;
+}
+
+.crew-member-description {
+  font-size: 1.8rem;
+  color: var(--accent);
+  line-height: 1.8;
+}
