@@ -9,14 +9,4 @@ function changeSelectedLinkState() {
   navHome.classList.add("selected-nav-link");
 }
 
-function handelChangingPage() {
-  navSteps.forEach((navStep) => {
-    navStep.addEventListener("click", () => {
-      if (navStep.textContent.includes("Destination")) {
-        window.location.href = "../destination-moon.html";
-      }
-    });
-  });
-}
-handelChangingPage();
 changeSelectedLinkState();
