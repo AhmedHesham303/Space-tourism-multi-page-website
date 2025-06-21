@@ -61,6 +61,9 @@ body {
 .nav-member:hover {
   cursor: pointer;
 }
+.nav-member:not(.selected-member):hover {
+  opacity: 0.5;
+}
 
 .selected-member {
   opacity: 1;
