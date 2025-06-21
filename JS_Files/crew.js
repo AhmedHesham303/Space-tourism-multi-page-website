@@ -25,7 +25,7 @@ function displayDestination(crewMember) {
 
   document.querySelector(".crew-member-img").src = crewMember.images.png;
 
-  document.querySelector(".crew-member-description").textContent =
+  document.querySelector(".rew-member-description").textContent =
     crewMember.description;
 }
 
@@ -47,6 +47,6 @@ function displayDestination(crewMember) {
 
 // handelDestenationChoice();
 
-loadData(4);
+loadData(3);
 
 changeSelectedLinkState();

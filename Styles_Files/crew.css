@@ -28,6 +28,7 @@ body {
 .crew-member-title {
   font-size: 3.2rem;
   opacity: 0.5;
+  margin-bottom: 1rem;
 }
 
 .crew-member-name {
