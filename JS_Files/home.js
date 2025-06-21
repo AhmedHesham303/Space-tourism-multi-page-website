@@ -3,7 +3,7 @@ const navSteps = document.querySelectorAll(".nav-step");
 const navHome = document.querySelector(".home-page-link");
 
 exploreBtn.addEventListener("click", () => {
-  window.location.href = "../destination-moon.html";
+  window.location.href = "../destination.html";
 });
 
 function changeSelectedLinkState() {
