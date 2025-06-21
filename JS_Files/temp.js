@@ -7,6 +7,9 @@ function navigator() {
       if (navStep.textContent.includes("Destination")) {
         window.location.href = "../destination.html";
       }
+      if (navStep.textContent.includes("Crew")) {
+        window.location.href = "../crew.html";
+      }
     });
   });
 }
