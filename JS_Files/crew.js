@@ -26,7 +26,7 @@ function displayCrewMemberInfo(crewMember) {
   document.querySelector(".crew-member-img").src = crewMember.images.png;
 
   document.querySelector(".crew-member-description").textContent =
-    crewMember.description;
+    crewMember.bio;
 }
 
 // function handelCrewMemberChoice() {
