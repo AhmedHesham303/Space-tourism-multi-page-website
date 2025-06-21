@@ -54,6 +54,17 @@ function handelDestenationChoice() {
   });
 }
 
+function handelChangingPage() {
+  navSteps.forEach((navStep) => {
+    navStep.addEventListener("click", () => {
+      if (navStep.textContent.includes("Home")) {
+        window.location.href = "../index.html";
+      }
+    });
+  });
+}
+handelChangingPage();
+
 changeSelectedIInnerLinkState();
 handelDestenationChoice();
 
