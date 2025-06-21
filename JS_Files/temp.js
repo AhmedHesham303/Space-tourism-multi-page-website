@@ -15,6 +15,9 @@ function navigator() {
       if (navStep.textContent.includes("Crew")) {
         window.location.href = "../crew.html";
       }
+      if (navStep.textContent.includes("Technology")) {
+        window.location.href = "../technology.html";
+      }
     });
   });
 }
