@@ -5,7 +5,7 @@ function navigator() {
         window.location.href = "../index.html";
       }
       if (navStep.textContent.includes("Destination")) {
-        window.location.href = "../destination-moon.html";
+        window.location.href = "../destination.html";
       }
     });
   });
