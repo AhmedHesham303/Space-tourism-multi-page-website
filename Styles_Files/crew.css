@@ -41,3 +41,25 @@ body {
   color: var(--accent);
   line-height: 1.8;
 }
+
+.navigator {
+  display: flex;
+  margin-left: 16.5rem;
+  gap: 4rem;
+}
+
+.nav-member {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  opacity: 0.175;
+}
+
+.nav-member:hover {
+  cursor: pointer;
+}
+
+.selected-member {
+  opacity: 1;
+}

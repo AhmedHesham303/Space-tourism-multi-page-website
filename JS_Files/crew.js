@@ -47,6 +47,6 @@ function displayCrewMemberInfo(crewMember) {
 
 // handelDestenationChoice();
 
-loadData(3);
+loadData(0);
 
 changeSelectedLinkState();
