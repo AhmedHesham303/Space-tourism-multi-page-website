@@ -2,6 +2,7 @@ body {
   background-image: url("../assets/crew/background-crew-desktop.jpg");
   font-family: "Barlow Condensed", sans-serif;
   color: var(--white);
+  position: relative;
 }
 
 .nav-step {
@@ -44,8 +45,9 @@ body {
 
 .navigator {
   display: flex;
-  margin-left: 16.5rem;
   gap: 4rem;
+  margin-left: 16.5rem;
+  margin-bottom: 9.6rem;
 }
 
 .nav-member {
@@ -62,4 +64,9 @@ body {
 
 .selected-member {
   opacity: 1;
+}
+
+.img-container {
+  width: 64rem;
+  height: 70rem;
 }
