@@ -2,13 +2,6 @@ body {
   background-image: url("../assets/home/background-home-desktop.jpg");
 }
 
-.hero-section {
-  height: 100%;
-  padding: 12.8rem 16.5rem 4rem;
-  display: flex;
-  align-items: flex-end;
-}
-
 .hero-section-container {
   display: flex;
   justify-content: space-between;
@@ -78,7 +71,7 @@ body {
   height: 100%;
   padding: 12.8rem 16.5rem 4rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .hero-section-container {
