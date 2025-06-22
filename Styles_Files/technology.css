@@ -1,0 +1,68 @@
+body {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  font-family: "Barlow Condensed", sans-serif;
+  color: var(--white);
+}
+
+.nav-step {
+  font-size: 1.3rem;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+.technology-data {
+  width: 50rem;
+}
+
+.technology-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.term {
+  margin-bottom: 2rem;
+  font-size: 3.2rem;
+  opacity: 0.5;
+}
+
+.technology-name {
+  font-size: 5.6rem;
+  margin-bottom: 2rem;
+  font-size: 5.6rem;
+}
+
+.technology-description {
+  font-size: 1.8rem;
+  color: var(--accent);
+  line-height: 1.8;
+}
+
+.technology-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.technology-step {
+  font-size: 3.2rem;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  border: solid 3px rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  color: var(--white);
+}
+
+.selected-step {
+  background-color: white;
+  color: black;
+  border: solid 2px rgba(255, 255, 255, 0.25);
+}

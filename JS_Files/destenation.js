@@ -1,8 +1,9 @@
-const navSteps = document.querySelectorAll(".nav-step");
 const navDestenation = document.querySelector(".destination-page-link");
 const destenationChoices = document.querySelectorAll(".destenation_choice");
+const destenationNavSteps = document.querySelectorAll(".nav-step");
+
 function changeSelectedLinkState() {
-  navSteps.forEach((navStep) => {
+  destenationNavSteps.forEach((navStep) => {
     navStep.classList.remove("selected-nav-link");
   });
   navDestenation.classList.add("selected-nav-link");

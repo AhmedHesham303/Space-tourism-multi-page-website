@@ -1,6 +1,6 @@
-const navSteps = document.querySelectorAll(".nav-step");
 const navCrew = document.querySelector(".crew-page-link");
 const navMembers = document.querySelectorAll(".nav-member");
+const crewNavSteps = document.querySelectorAll(".nav-step");
 
 function changeSelectedNavPoints() {
   navMembers.forEach((navMember) => {
@@ -22,7 +22,7 @@ function handelCrewChoice() {
 }
 
 function changeSelectedLinkState() {
-  navSteps.forEach((navStep) => {
+  crewNavSteps.forEach((navStep) => {
     navStep.classList.remove("selected-nav-link");
   });
   navCrew.classList.add("selected-nav-link");

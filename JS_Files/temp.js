@@ -1,3 +1,5 @@
+const navSteps = document.querySelectorAll(".nav-step");
+
 const websiteLogo = document.querySelector(".website-logo");
 websiteLogo.addEventListener("click", () => {
   window.location.href = "../index.html";
