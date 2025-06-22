@@ -8,6 +8,17 @@ function changeSelectedLinkState() {
   technologyPageLink.classList.add("selected-nav-link");
 }
 
+function changeSelectedInnerLinkState() {
+  technologySteps.forEach((step) => {
+    step.addEventListener("click", () => {
+      technologySteps.forEach((navStep) => {
+        navStep.classList.remove("selected-step");
+      });
+      step.classList.add("selected-step");
+    });
+  });
+}
+
 function handelTechChoice() {
   technologySteps.forEach((choice, index) => {
     choice.addEventListener("click", () => {
@@ -35,3 +46,4 @@ function displayCrewMemberInfo(technology) {
 
 handelTechChoice();
 changeSelectedLinkState();
+changeSelectedInnerLinkState();
