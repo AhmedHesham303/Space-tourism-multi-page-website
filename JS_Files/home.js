@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const navHome = document.querySelector(".home-page-link");
 
   exploreBtn.addEventListener("click", () => {
-    console.log(basePath);
     window.location.href = `${basePath}/destination.html`;
   });
 
